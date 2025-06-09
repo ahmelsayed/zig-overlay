@@ -61,4 +61,4 @@
 in
   # We want the packages but also add a "default" that just points to the
   # latest released version.
-  taggedPackages // masterPackages // {"default" = taggedPackages.${latest};}
+  taggedPackages // {"default" = taggedPackages.${latest};}
