@@ -47,8 +47,8 @@ reduce to_entries[] as $entry ({}; . * (
 ' > sources.new.json
 
 # For debugging
-# cat sources.new.json
-# exit
+cat sources.new.json
+exit
 
 # Copy the old file since jq can't modify in-place. This is also a backup.
 cp sources.json sources.old.json
